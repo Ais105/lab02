@@ -95,7 +95,7 @@ Everything up-to-date
 *.swp
 .idea/
 ```
-Работа с репохиторием.
+Работа с репозиторием.
 ```ShellSession
 #Объединение изменений, присутствующих в удаленном репозитории, в локальный рабочий каталог
 $ git pull origin master
@@ -157,7 +157,7 @@ int main(int argc, char** argv)
 }
 EOF
 ```
-Редактирование файла
+Редактирование файла.
 ```ShellSession
 $ edit README.md
 ```
