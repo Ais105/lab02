@@ -99,6 +99,20 @@ Everything up-to-date
 ```ShellSession
 #Объединение изменений, присутствующих в удаленном репозитории, в локальный рабочий каталог
 $ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 1), reused 1 (delta 0), pack-reused 0
+Распаковка объектов: 100% (6/6), готово.
+Из https://github.com/Ais105/lab02
+ * branch            master     -> FETCH_HEAD
+   7370432..d6bf6dd  master     -> origin/master
+Обновление 7370432..d6bf6dd
+Fast-forward
+ .gitignore |  4 ++++
+ README.md  | 29 ++++++++++++++++++++++-------
+ 2 files changed, 26 insertions(+), 7 deletions(-)
+ create mode 100644 .gitignore
 #Cписок коммитов
 $ git log
 ```
